@@ -1,0 +1,10 @@
+{
+	"namespace": "com.harper.testing.serde",
+	 "type": "record",
+	 "name": "Derive",
+	 "fields": [
+	     {"name": "f1",   "type": ["int"]},
+	     {"name": "f1_2", "type": ["null","Base"],"default":null},
+	     {"name": "f2",   "type": ["null","string"],  "default":null}
+	 ]
+}
